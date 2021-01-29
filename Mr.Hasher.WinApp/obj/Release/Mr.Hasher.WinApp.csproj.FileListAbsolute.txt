@@ -1,0 +1,16 @@
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.WinApp.exe.config
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.WinApp.exe
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.WinApp.pdb
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.Bussines.dll
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.Bussines.pdb
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\bin\Release\Mr.Hasher.Bussines.dll.config
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.csprojAssemblyReference.cache
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.Aboutfrm.resources
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.Mainfrm.resources
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.Properties.Resources.resources
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.ShowHashfrm.resources
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.csproj.GenerateResource.cache
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.csproj.CoreCompileInputs.cache
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.csproj.CopyComplete
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.exe
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.WinApp\obj\Release\Mr.Hasher.WinApp.pdb

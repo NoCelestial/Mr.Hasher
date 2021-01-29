@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MrHasher_DBModelStoreContainer" CdmEntityContainer="MrHasher_ConnStringEntities">
+    <EntitySetMapping Name="Hash_Model">
+      <EntityTypeMapping TypeName="Mr.Hasher_DBModel.Hash_Model">
+        <MappingFragment StoreEntitySet="Hash_Model">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HashTypeID" ColumnName="HashTypeID" />
+          <ScalarProperty Name="HashedValue" ColumnName="HashedValue" />
+          <ScalarProperty Name="Value" ColumnName="Value" />
+          <ScalarProperty Name="HashedTime" ColumnName="HashedTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HashType_Model">
+      <EntityTypeMapping TypeName="Mr.Hasher_DBModel.HashType_Model">
+        <MappingFragment StoreEntitySet="HashType_Model">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="HashName" ColumnName="HashName" />
+          <ScalarProperty Name="IsHash" ColumnName="IsHash" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

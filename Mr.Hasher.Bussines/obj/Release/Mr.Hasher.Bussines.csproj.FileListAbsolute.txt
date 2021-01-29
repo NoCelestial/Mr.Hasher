@@ -1,0 +1,7 @@
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\bin\Release\Mr.Hasher.Bussines.dll.config
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\bin\Release\Mr.Hasher.Bussines.dll
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\bin\Release\Mr.Hasher.Bussines.pdb
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\obj\Release\Mr.Hasher.Bussines.csprojAssemblyReference.cache
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\obj\Release\Mr.Hasher.Bussines.csproj.CoreCompileInputs.cache
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\obj\Release\Mr.Hasher.Bussines.dll
+F:\visual projeckt\.Net Framework\Mr.Hasher\Mr.Hasher.Bussines\obj\Release\Mr.Hasher.Bussines.pdb

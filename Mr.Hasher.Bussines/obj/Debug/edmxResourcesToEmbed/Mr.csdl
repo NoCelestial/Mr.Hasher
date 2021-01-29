@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Mr.Hasher_DBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Hash_Model">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HashTypeID" Type="Int32" Nullable="false" />
+    <Property Name="HashedValue" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Value" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="HashedTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="HashType_Model" Relationship="Self.FK_Hash_Model_HashType_Model" FromRole="Hash_Model" ToRole="HashType_Model" />
+  </EntityType>
+  <EntityType Name="HashType_Model">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HashName" Type="String" MaxLength="300" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IsHash" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Hash_Model" Relationship="Self.FK_Hash_Model_HashType_Model" FromRole="HashType_Model" ToRole="Hash_Model" />
+  </EntityType>
+  <Association Name="FK_Hash_Model_HashType_Model">
+    <End Role="HashType_Model" Type="Self.HashType_Model" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Hash_Model" Type="Self.Hash_Model" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HashType_Model">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Hash_Model">
+        <PropertyRef Name="HashTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="MrHasher_ConnStringEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Hash_Model" EntityType="Self.Hash_Model" />
+    <EntitySet Name="HashType_Model" EntityType="Self.HashType_Model" />
+    <AssociationSet Name="FK_Hash_Model_HashType_Model" Association="Self.FK_Hash_Model_HashType_Model">
+      <End Role="HashType_Model" EntitySet="HashType_Model" />
+      <End Role="Hash_Model" EntitySet="Hash_Model" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
